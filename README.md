@@ -1,40 +1,37 @@
 # Monique Lotriet - Front-End Portfolio
 
-## Purpose of My Visual Styling
+## Responsiveness Approach
+I started my CSS from scratch and used a mobile-first approach. I built and styled the layout for small screens first, previewing and inspecting it in mobile view to ensure everything rendered correctly. Once the mobile layout was complete I added a media query with min-width: 768px and applied only the minimal changes needed for desktop. Most of the styles defined for mobile remained consistent across screen sizes, which made the transition to desktop easier.
 
- I chose earthy and calming tones that blend nicely together to create a warm and clear aesthetic. The background uses a soft beige, complemented by deep reds and browns for headers and buttons. These colors provide good contrast and accessibility, making the portfolio easy to read and professional while also feeling approachable.
+## Layout Tools: Flexbox
+- I used Flexbox to manage layout and spacing.
+- In the Section class I applied Flexbox to display content in a column layout on mobile.
+- Inside the media query for desktop, I changed it to a row layout.
+- This allowed the sections to stack vertically on small screens and align horizontally on larger ones.
 
-## Typography
-I chose a combination of serif and sans-serif fonts to create a balance that reflects the tone of my portfolio.
+## Design Decisions
 
-### h1 – 'Playfair Display', serif;
-This font was selected for main Heading to give a strong feeling. Its  design helps it stand out and make a bold impression.
+### Navigation
+- I made sure the navigation bar looked good on both mobile and desktop.
+- Used flex to align and space the links.
+- I kept the text uppercase, bold, and increased the padding on desktop.
 
-### .SubHeader, .SubText, and Form Elements – 'Karla', sans-serif;
-Karla is a clean, modern and easy to read. I used it for subheadings, Sub Text text, and form elements to maintain readability. 
+### Structure
+- I structured the layout using semantic sections for clarity.
+- Used consistent fonts across the designfor body text and for headings.
 
-### h2 and h3 – 'Lora', serif;
-Maintain consistency and it goes well with both Playfair and Karla.
+### Interactivity
+- I added a transition effect to the form button so that on hover, the background color changes.
+- I  styled my list with a custom heart symbol before each item to make it more visually appealing with my personal touch.
 
-This font pairing creates a warm but professional tone, supports good visual hierarchy, and maintains readability across devices and modes.
+## Challenges & Reflections
+- Getting used to mobile-first: At first, it was challenging to start with mobile and then move to desktop. I later realized that only small, minimal changes were needed for desktop, and most styles carry over.
+- Display types: I found it difficult at times to remember all the display property options and how they behave. I had to test and adjust multiple times before the layout looked right.
+- Overall, the project helped me understand how planning for mobile first can simplify the entire responsive process.
+- This was the most chalenngin assignment so far as you can get quite confused while styling everything and what goes where this is why its important to folow a proper structure. 
 
-## How These Choices Support My Portfolio’s Overall Theme
+## Summary
+This project helped me build confidence with mobile-first design and responsive CSS techniques. I learned how powerful display flex can be and how a clean structure can make your layout easier to manage across different screen sizes.I'm far from where I want to be but learning the basics has really helped. 
 
-My theme focuses on calmness to reflect my learning journey. As I progress, I plan to introduce more vibrant colors and dynamic styles to demonstrate growth and creativity. The current calm palette supports a professional vibe. 
-
-## How I Validated My Stylesheet
-
-I validated my CSS using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
-
-## Reflection on Challenges and Decisions
-
-Styling the feedback form was challenging, especially getting the inputs and buttons to align and look consistent. I researched flexbox layouts and experimented with spacing.
-
-Placing my Projects and Goals sections side-by-side also took some time. I found that planning the layout structure and writing down the content hierarchy beforehand would have made the process smoother.
-
-Overall, I learned that careful planning and validating code early can save time and reduce confusion. I also gained confidence in using CSS basics. 
-
----
-
-*Created: July 2025*  
+*Created: August 2025*  
 *Monique Lotriet*
