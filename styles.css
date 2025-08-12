@@ -175,6 +175,23 @@ form button {
 
 }
 
+.WelcomeBTN  {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 3s ease;
+  width:100%;  text-align: center;
+  background-color: #611e10;
+  color: #f5e0d3;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  padding:5px;
+  margin:0px;
+
+} 
+
 form button:hover {
   background-color: #a12d21;
 }
@@ -213,9 +230,11 @@ form button:hover {
 
   h2 {
     font-size: 24px;
+     font-family: "Handlee", cursive;
   }
  h3 {
     font-size: 15px;
+     font-family: "Handlee", cursive;
   }
   #Feedback {
   margin: 20px;
