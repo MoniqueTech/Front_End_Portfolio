@@ -1,7 +1,7 @@
 # Monique Lotriet - Front-End Portfolio
 
 ## → What the popup or interaction does?
-When the user clicks the button labeled "Click here for a Welcome Message," a popup alert appears explaining how the interaction works. This alert helps visitors understand that JavaScript can create interactive elements on a webpage.
+When the user clicks the button labeled "Click HERE" a popup alert appears explaining how the interaction works. This alert helps visitors understand that JavaScript can create interactive elements on a webpage.
 
 ## →	What user action triggers it?
 The popup is triggered by the user clicking the button on the page. 
