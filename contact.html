@@ -1,0 +1,62 @@
+<!-- Define document as HTML5-->
+<!DOCTYPE HTML>
+<!-- Root element with language attribute -->
+<html lang="en">
+<!-- Everything in this tag is what the browser uses but user does not see -->
+<head>
+<!-- Character enabling -->
+<meta charset="UTF-8">
+<!-- Responsive meta tag -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Page title shown in browser tab -->
+<title>Working Contact Form</title>
+  <script src="contact.js" defer></script>
+<!-- Decsription for the site -->
+<meta name="description" content="Feedback Form">
+<link rel="stylesheet" href="contact.css">
+
+
+</head>
+<!-- Everything that you can see goes into the body tag -->
+<body>
+<main>
+
+<div class="Container">
+<form id="contactForm">
+<h1>CONTACT ME</h1>
+<div class="form-group">
+<label for="name">Name:</label>
+<input type="text" id="name" placeholder="Your Name">
+<small class="error"></small>
+</div>
+
+<div class="form-group">
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="you@example.com">
+<small class="error"></small>
+</div>
+
+<div class="form-group">
+<label for="message">Message:</label>
+<input id="message"  placeholder="Your message">
+<small class="error"></small>
+</div>
+
+<button type="submit">Submit Message</button>
+</form>
+</div>
+
+<!--Modal-->
+<div id="modal" class="modal">
+<div class="modal-content">
+<span id="closeModal" class="close">&times;</span>
+<h2>Form Submitted Successfully</h2>
+<p><strong>Name</strong><span id="modalName"></span></p>
+<p><strong>Email:</strong><span id="modalEmail"></span></p>
+<p><strong>Message</strong><span id="modalMessage"></span></p>
+</div>
+</div>
+
+ </main>
+</body>  
+</html>
