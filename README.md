@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 📬 Contact Form with Validation and Modal
 
 This project is a **Contact Form** built using **HTML, CSS, and JavaScript**.  
@@ -102,4 +102,4 @@ I have really enjoyed this module as it introduced me to something completely ne
 
 *Created: August 2025*  
 *Monique Lotriet*
->>>>>>> 62f389e5d011507e0bb485d08a08226a727205e5
+
